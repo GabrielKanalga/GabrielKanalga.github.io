@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio Website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="hero">
+            <div class="navbar">
+                <div class="menu">
+                    <div class="menu-icon">
+                        &#9776; 
+                    </div>
+                    <ul class="dropdown-menu" >
+                        <a href="#Uebermich-Passage">
+                            <li><span></span> Über mich</li>
+                          </a>
+                          <a href="#Kenntnisse-Passage">
+                        <li><span></span> Kenntnisse</li>
+                        </a>
+                        <li><span></span> Kontakt</li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="images/logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <div class="center-text">Herzlich Willkommen.</div>
+
+            <video class="video-bg" autoplay muted loop id="myVideo">
+                <source src="hintergrund.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="divider"></div>
+
+<div class="uebermich-passage" id="Uebermich-Passage">
+    <div class="uebermich-titel">Über mich</div>
+
+    <div class="videoplayer">
+
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/Jn1zZzgAW4M?si=mb592gj4Xcfoq-Vm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+</div>
+<div class="divider"></div>
+</div>
+<div class="scroll-section">
+    <div class="color-passage"></div>
+    <div class="white-section" id="Kenntnisse-Passage">
+        <div class="Kenntnise-titel">Kenntnisse</div>
+        <div class="icon-container">
+            <div class="icon-item"  onclick ="window.open('https://portfolio.bbbaden.ch/view/view.php?t=cba403685bb64b190073')">
+                <img class="normalimage"  src="images/Icon1.png" alt="C# Icon">
+                <h2>C#</h2>
+                <p>Als C# Referenz habe ich ein Poker Programm(Ansicht 1) in Winforms programmiert und ein Verschlüsselungs Programm(Ansicht 2).</p>
+            </div>
+            <div class="icon-item" onclick="window.open('https://portfolio.bbbaden.ch/view/view.php?t=fe1d845b6db3fc320fcb')">
+                <img class="normalimage" src="images/Icon2.png" alt="Java Icon">
+                <h2>Java</h2>
+                <p>Als Java Referenz habe ich ein Schere Stein Papier Programm programmiert.</p>
+            </div>
+            <div class="icon-item">
+                <img class="normalimage" src="images/Icon4.png" alt="HTMLCSS Icon">
+                <h2>HTML,CSS</h2>
+                <p>Diese Website ist meine HTML und CSS Referenz.</p>
+            </div>
+            <div class="icon-item" onclick="window.open('https://portfolio.bbbaden.ch/view/view.php?t=6e9efbf21b6ef783cabd')">
+                <img class="normalimage" src="images/Icon5.png" alt="Kali Linux Icon"  >
+                <h2>Kali Linux</h2>
+                <p>Als Kali Linux und Internet Kenntniss Referenz habe ich einige Lernprozesse Dokumentiert.(4 Ansichten)</p>
+            </div>
+            <div class="icon-item" onclick="window.open('https://portfolio.bbbaden.ch/user/g-kanalga-inf20/modul-105')">
+                <img class="sqlimage" src="images/Icon3.png" alt="SQL Icon"  >
+                <h2>SQL</h2>
+                <p>Als SQL Referenz habe ich eine Datenbank programmiert.</p>
+            </div>
+            
+            
+        </div>
+    </div>
+</div>
+ <div class="white-block"></div>
+<div class="divider"></div>
+<div class="Kontaktformular-passage">
+    <div class="Kontakt-titel">Kontakt</div>
+    <form action="https://form.taxi/s/7l8anlw1" id="ft-form" method="POST" accept-charset="UTF-8">
+        <fieldset>
+          <label>
+            <p class="fontkontakt">Name</p> 
+            <input type="text" name="Name" required>
+          </label>
+          <label>
+            <p class="fontkontakt">E-Mail-Adresse</p>  
+            <input type="email" name="E-Mail" required>
+          </label>
+          <label>
+            <p class="fontkontakt">Ihre Nachricht</p>    
+            <textarea rows="3" name="Nachricht" required></textarea>
+          </label>
+          
+        </fieldset>
+        <div class="btns">
+          <input type="text" name="_gotcha" value="" style="display:none;">
+          <input type="submit" value="Absenden">
+        </div>
+      </form>
+</div>
+
+<div class="footer-bar">
+    <div class="icon-block">
+        <img src="images/phone-icon.png" alt="Telefon Icon" class="footer-icon">
+        <div class="icon-text">
+            <p>Telefon</p>
+            <p>078 822 57 22</p>
+        </div>
+    </div>
+    <div class="icon-block">
+        <img src="images/email-icon.png" alt="E-Mail Icon" class="footer-icon">
+        <div class="icon-text">
+            <p>Email</p>
+            <p>gk.kanalga@gmail.com</p>
+        </div>
+    </div>
+</div>
+
+
+
+    </body>
+</html>
